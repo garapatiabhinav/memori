@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CC497102F63378A00B273A0 /* memori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memori.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CC4971D2F63378B00B273A0 /* memoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CC497272F63378B00B273A0 /* memoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC497102F63378A00B273A0 /* Reliqs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reliqs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC4971D2F63378B00B273A0 /* ReliqsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReliqsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC497272F63378B00B273A0 /* ReliqsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReliqsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1CC497122F63378A00B273A0 /* memori */ = {
+		1CC497122F63378A00B273A0 /* Reliqs */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = memori;
+			path = Reliqs;
 			sourceTree = "<group>";
 		};
 		1CC497202F63378B00B273A0 /* memoriTests */ = {
@@ -75,7 +75,7 @@
 		1CC497072F63378A00B273A0 = {
 			isa = PBXGroup;
 			children = (
-				1CC497122F63378A00B273A0 /* memori */,
+				1CC497122F63378A00B273A0 /* Reliqs */,
 				1CC497202F63378B00B273A0 /* memoriTests */,
 				1CC4972A2F63378B00B273A0 /* memoriUITests */,
 				1CC497112F63378A00B273A0 /* Products */,
@@ -85,9 +85,9 @@
 		1CC497112F63378A00B273A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CC497102F63378A00B273A0 /* memori.app */,
-				1CC4971D2F63378B00B273A0 /* memoriTests.xctest */,
-				1CC497272F63378B00B273A0 /* memoriUITests.xctest */,
+				1CC497102F63378A00B273A0 /* Reliqs.app */,
+				1CC4971D2F63378B00B273A0 /* ReliqsTests.xctest */,
+				1CC497272F63378B00B273A0 /* ReliqsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CC4970F2F63378A00B273A0 /* memori */ = {
+		1CC4970F2F63378A00B273A0 /* Reliqs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC497312F63378B00B273A0 /* Build configuration list for PBXNativeTarget "memori" */;
+			buildConfigurationList = 1CC497312F63378B00B273A0 /* Build configuration list for PBXNativeTarget "Reliqs" */;
 			buildPhases = (
 				1CC4970C2F63378A00B273A0 /* Sources */,
 				1CC4970D2F63378A00B273A0 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1CC497122F63378A00B273A0 /* memori */,
+				1CC497122F63378A00B273A0 /* Reliqs */,
 			);
-			name = memori;
+			name = Reliqs;
 			packageProductDependencies = (
 			);
 			productName = memori;
-			productReference = 1CC497102F63378A00B273A0 /* memori.app */;
+			productReference = 1CC497102F63378A00B273A0 /* Reliqs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1CC4971C2F63378B00B273A0 /* memoriTests */ = {
+		1CC4971C2F63378B00B273A0 /* ReliqsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC497342F63378B00B273A0 /* Build configuration list for PBXNativeTarget "memoriTests" */;
+			buildConfigurationList = 1CC497342F63378B00B273A0 /* Build configuration list for PBXNativeTarget "ReliqsTests" */;
 			buildPhases = (
 				1CC497192F63378B00B273A0 /* Sources */,
 				1CC4971A2F63378B00B273A0 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				1CC497202F63378B00B273A0 /* memoriTests */,
 			);
-			name = memoriTests;
+			name = ReliqsTests;
 			packageProductDependencies = (
 			);
 			productName = memoriTests;
-			productReference = 1CC4971D2F63378B00B273A0 /* memoriTests.xctest */;
+			productReference = 1CC4971D2F63378B00B273A0 /* ReliqsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1CC497262F63378B00B273A0 /* memoriUITests */ = {
+		1CC497262F63378B00B273A0 /* ReliqsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC497372F63378B00B273A0 /* Build configuration list for PBXNativeTarget "memoriUITests" */;
+			buildConfigurationList = 1CC497372F63378B00B273A0 /* Build configuration list for PBXNativeTarget "ReliqsUITests" */;
 			buildPhases = (
 				1CC497232F63378B00B273A0 /* Sources */,
 				1CC497242F63378B00B273A0 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				1CC4972A2F63378B00B273A0 /* memoriUITests */,
 			);
-			name = memoriUITests;
+			name = ReliqsUITests;
 			packageProductDependencies = (
 			);
 			productName = memoriUITests;
-			productReference = 1CC497272F63378B00B273A0 /* memoriUITests.xctest */;
+			productReference = 1CC497272F63378B00B273A0 /* ReliqsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1CC4970B2F63378A00B273A0 /* Build configuration list for PBXProject "memori" */;
+			buildConfigurationList = 1CC4970B2F63378A00B273A0 /* Build configuration list for PBXProject "Reliqs" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CC4970F2F63378A00B273A0 /* memori */,
-				1CC4971C2F63378B00B273A0 /* memoriTests */,
-				1CC497262F63378B00B273A0 /* memoriUITests */,
+				1CC4970F2F63378A00B273A0 /* Reliqs */,
+				1CC4971C2F63378B00B273A0 /* ReliqsTests */,
+				1CC497262F63378B00B273A0 /* ReliqsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		1CC4971F2F63378B00B273A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1CC4970F2F63378A00B273A0 /* memori */;
+			target = 1CC4970F2F63378A00B273A0 /* Reliqs */;
 			targetProxy = 1CC4971E2F63378B00B273A0 /* PBXContainerItemProxy */;
 		};
 		1CC497292F63378B00B273A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1CC4970F2F63378A00B273A0 /* memori */;
+			target = 1CC4970F2F63378A00B273A0 /* Reliqs */;
 			targetProxy = 1CC497282F63378B00B273A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +467,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memori";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reliqs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reliqs";
 			};
 			name = Debug;
 		};
@@ -486,7 +486,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memori";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reliqs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reliqs";
 			};
 			name = Release;
 		};
@@ -527,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CC4970B2F63378A00B273A0 /* Build configuration list for PBXProject "memori" */ = {
+		1CC4970B2F63378A00B273A0 /* Build configuration list for PBXProject "Reliqs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CC4972F2F63378B00B273A0 /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CC497312F63378B00B273A0 /* Build configuration list for PBXNativeTarget "memori" */ = {
+		1CC497312F63378B00B273A0 /* Build configuration list for PBXNativeTarget "Reliqs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CC497322F63378B00B273A0 /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CC497342F63378B00B273A0 /* Build configuration list for PBXNativeTarget "memoriTests" */ = {
+		1CC497342F63378B00B273A0 /* Build configuration list for PBXNativeTarget "ReliqsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CC497352F63378B00B273A0 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CC497372F63378B00B273A0 /* Build configuration list for PBXNativeTarget "memoriUITests" */ = {
+		1CC497372F63378B00B273A0 /* Build configuration list for PBXNativeTarget "ReliqsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CC497382F63378B00B273A0 /* Debug */,
