@@ -48,7 +48,7 @@ struct SplashScreen: View {
                 Spacer().frame(height: 28)
 
                 // Wordmark
-                Text("memeri")
+                Text("Reliqs")
                     .font(Memori.Font.serif(30))
                     .foregroundStyle(Memori.Color.inkDark)
                     .tracking(4)
@@ -58,7 +58,7 @@ struct SplashScreen: View {
                 Spacer().frame(height: 10)
 
                 // Tagline
-                Text("your daily memory")
+                Text("Your Visual Journal")
                     .font(Memori.Font.sans(11))
                     .foregroundStyle(Memori.Color.inkMid)
                     .tracking(2)
